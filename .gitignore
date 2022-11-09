@@ -2,3 +2,5 @@ node_modules
 *.vsix
 .vscode
 vsc-extension-quickstart.md
+.DS_Store
+.editor[Cc]onfig
