@@ -6,9 +6,9 @@
   <a href="https://github.com/nickesc/vscode-paradise-nickesc/network/members"><img src="https://img.shields.io/github/forks/nickesc/vscode-paradise-nickesc?colorA=151515&colorB=D9BC8C&style=for-the-badge&logo=github"></a>
 </p>
 
-## Pallete
+## Palette
 
-![Pallete](preview.png)
+![Palette](preview.png)
 
 ## Acknowledgements:
 
