@@ -9,7 +9,7 @@
     "name": "Nick Escobar",
     "url": "https://nickesc.github.io",
     "email": "support@bludhaven.dev",
-    "github": "https://github.com/nickesc
+    "github": "https://github.com/nickesc"
   },
   "icon": "icon.png",
   "galleryBanner": {
@@ -25,7 +25,7 @@
   },
   "bugs": {
       "url": "https://github.com/nickesc/vscode-paradise-nickesc/issues",
-      "email": "
+      "email": "support@bludhaven.dev"
   },
   "categories": [
     "Themes"
