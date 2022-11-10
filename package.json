@@ -4,7 +4,18 @@
   "description": "A custom port of paradise-theme/paradise",
   "license": "MIT",
   "publisher": "nickesc",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "author": {
+    "name": "Nick Escobar",
+    "url": "https://nickesc.github.io",
+    "email": "support@bludhaven.dev",
+    "github": "https://github.com/nickesc
+  },
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#151515",
+    "theme": "dark"
+  },
   "engines": {
     "vscode": "^1.73.0"
   },
@@ -13,7 +24,8 @@
     "url": "https://github.com/nickesc/vscode-paradise-nickesc.git"
   },
   "bugs": {
-      "url": "https://github.com/nickesc/vscode-paradise-nickesc/issues"
+      "url": "https://github.com/nickesc/vscode-paradise-nickesc/issues",
+      "email": "
   },
   "categories": [
     "Themes"
