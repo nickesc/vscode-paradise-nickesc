@@ -19,8 +19,8 @@ I did not create this theme, I'm only porting it to VSCode. This is also a fork 
 ## Ports 
 
 ### Editor
-  - VSCode with [Plugin](https://github.com/nickesc/vscode-paradise-nickesc)
+  - VSCode with [Plugin](https://marketplace.visualstudio.com/items?itemName=nickesc.vscode-paradise-nickesc)
 
 ## Installation
 
-Install with [VSCode Plugin](https://github.com/nickesc/vscode-paradise-nickesc)
+Install with [VSCode Plugin](https://marketplace.visualstudio.com/items?itemName=nickesc.vscode-paradise-nickesc)
