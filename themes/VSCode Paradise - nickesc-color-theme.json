@@ -25,7 +25,7 @@
       "name": "haskell variable generic-type",
       "scope": "variable.other.generic-type.haskell",
       "settings": {
-        "foreground": "#b66467"
+        "foreground": "#d9bc8c"
       }
     },
     {
@@ -95,7 +95,7 @@
       "name": "support.constant.edge",
       "scope": "support.constant.edge",
       "settings": {
-        "foreground": "#b66467"
+        "foreground": "#a988b0"
       }
     },
     {
@@ -252,7 +252,7 @@
       "name": "java instanceof",
       "scope": "keyword.operator.instanceof.java",
       "settings": {
-        "foreground": "#b66467"
+        "foreground": "#8aa6a2"
       }
     },
     {
@@ -343,7 +343,7 @@
       "name": "js variable readwrite",
       "scope": "variable.other.readwrite,meta.object-literal.key,support.variable.property,support.variable.object.process,support.variable.object.node",
       "settings": {
-        "foreground": "#a988b0"
+        "foreground": "#e8e3e3"
       }
     },
     {
@@ -363,7 +363,8 @@
         "keyword.operator.expression.keyof"
       ],
       "settings": {
-        "foreground": "#b66467"
+        "foreground": "#b66467",
+        "fontStyle": "italic"
       }
     },
     {
@@ -398,14 +399,14 @@
       "name": "keyword.operator.sigil.rust",
       "scope": "keyword.operator.sigil.rust",
       "settings": {
-        "foreground": "#b66467"
+        "foreground": "#d9bc8c"
       }
     },
     {
       "name": "operator",
       "scope": "keyword.operator.delete",
       "settings": {
-        "foreground": "#b66467"
+        "foreground": "#d9bc8c"
       }
     },
     {
@@ -433,7 +434,7 @@
       "name": "C operator assignment",
       "scope": "keyword.operator.assignment.c,keyword.operator.comparison.c,keyword.operator.c,keyword.operator.increment.c,keyword.operator.decrement.c,keyword.operator.bitwise.shift.c,keyword.operator.assignment.cpp,keyword.operator.comparison.cpp,keyword.operator.cpp,keyword.operator.increment.cpp,keyword.operator.decrement.cpp,keyword.operator.bitwise.shift.cpp",
       "settings": {
-        "foreground": "#b66467"
+        "foreground": "#d9bc8c"
       }
     },
     {
@@ -447,7 +448,7 @@
       "name": "Other punctuation .c",
       "scope": "punctuation.separator.c,punctuation.separator.cpp",
       "settings": {
-        "foreground": "#b66467"
+        "foreground": "#d9bc8c"
       }
     },
     {
@@ -461,7 +462,7 @@
       "name": "keyword.operator.sizeof.c",
       "scope": "keyword.operator.sizeof.c,keyword.operator.sizeof.cpp",
       "settings": {
-        "foreground": "#b66467"
+        "foreground": "#d9bc8c"
       }
     },
     {
@@ -482,7 +483,7 @@
       "name": "python logical",
       "scope": "keyword.operator.logical.python",
       "settings": {
-        "foreground": "#b66467"
+        "foreground": "#d9bc8c"
       }
     },
     {
@@ -524,7 +525,7 @@
       "name": "Compound Assignment Operators",
       "scope": "keyword.operator.assignment.compound",
       "settings": {
-        "foreground": "#b66467"
+        "foreground": "#d9bc8c"
       }
     },
     {
@@ -538,7 +539,8 @@
       "name": "Keywords",
       "scope": "keyword",
       "settings": {
-        "foreground": "#b66467"
+        "foreground": "#b66467",
+        "fontStyle": "italic"
       }
     },
     {
@@ -552,7 +554,7 @@
       "name": "Variables",
       "scope": "variable",
       "settings": {
-        "foreground": "#a988b0"
+        "foreground": "#e8e3e3"
       }
     },
     {
@@ -659,7 +661,8 @@
       "name": "Keyword Control",
       "scope": "keyword.control",
       "settings": {
-        "foreground": "#b66467"
+        "foreground": "#b66467",
+        "fontStyle": "italic"
       }
     },
     {
@@ -680,21 +683,21 @@
       "name": "Storage",
       "scope": "storage",
       "settings": {
-        "foreground": "#b66467"
+        "foreground": "#d9bc8c"
       }
     },
     {
       "name": "Storage JS TS",
       "scope": "token.storage",
       "settings": {
-        "foreground": "#b66467"
+        "foreground": "#d9bc8c"
       }
     },
     {
       "name": "Source Js Keyword Operator Delete,source Js Keyword Operator In,source Js Keyword Operator Of,source Js Keyword Operator Instanceof,source Js Keyword Operator New,source Js Keyword Operator Typeof,source Js Keyword Operator Void",
       "scope": "keyword.operator.expression.delete,keyword.operator.expression.in,keyword.operator.expression.of,keyword.operator.expression.instanceof,keyword.operator.new,keyword.operator.expression.typeof,keyword.operator.expression.void",
       "settings": {
-        "foreground": "#b66467"
+        "foreground": "#d9bc8c"
       }
     },
     {
@@ -1009,13 +1012,15 @@
       "name": "illegal",
       "scope": "invalid.illegal.bad-ampersand.html",
       "settings": {
-        "foreground": "#b66467"
+        "foreground": "#b66467",
+        "fontStyle": "bold"
       }
     },
     {
       "scope": "invalid.illegal.unrecognized-tag.html",
       "settings": {
-        "foreground": "#b66467"
+        "foreground": "#b66467",
+        "fontStyle": "bold"
       }
     },
     {
@@ -1023,21 +1028,23 @@
       "scope": "invalid.broken",
       "settings": {
         "foreground": "#b66467",
-        "fontStyle": "bold"
+        "fontStyle": "bold strikethrough"
       }
     },
     {
       "name": "Deprecated",
       "scope": "invalid.deprecated",
       "settings": {
-        "foreground": "#d9bc8c"
+        "foreground": "#d9bc8c",
+        "fontStyle": "italic strikethrough"
       }
     },
     {
       "name": "html Deprecated",
       "scope": "invalid.deprecated.entity.other.attribute-name.html",
       "settings": {
-        "foreground": "#d9bc8c"
+        "foreground": "#d9bc8c",
+        "fontStyle": "italic strikethrough"
       }
     },
     {
@@ -1093,7 +1100,7 @@
       "name": "laravel blade tag",
       "scope": "text.html.laravel-blade source.php.embedded.line.html entity.name.tag.laravel-blade",
       "settings": {
-        "foreground": "#b66467"
+        "foreground": "#d9bc8c"
       }
     },
     {
@@ -1121,7 +1128,7 @@
       "name": "php instanceof",
       "scope": "keyword.operator.type.php",
       "settings": {
-        "foreground": "#b66467"
+        "foreground": "#8aa6a2"
       }
     },
     {
@@ -1463,7 +1470,7 @@
         "keyword.operator.address.go"
       ],
       "settings": {
-        "foreground": "#b66467"
+        "foreground": "#d9bc8c"
       }
     },
     {
@@ -1499,7 +1506,7 @@
         "punctuation.quasi.element"
       ],
       "settings": {
-        "foreground": "#b66467"
+        "foreground": "#d9bc8c"
       }
     },
     {
@@ -1847,7 +1854,7 @@
       "name": "Deleted",
       "scope": "markup.deleted",
       "settings": {
-        "foreground": "#B66467"
+        "foreground": "#B66467",
       }
     },
     {
@@ -2158,3 +2165,4 @@
     "debugExceptionWidget.border": "#11111100"
   }
 }
+
