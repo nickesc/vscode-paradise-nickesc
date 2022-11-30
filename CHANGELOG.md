@@ -8,3 +8,17 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Initial fork
 - redid everything
+
+## v0.0.3
+
+- added a new preview
+- added a custom icon
+
+## v0.0.4
+
+- rebalanced colors to reduce the amount of red and increase yellow and white
+    - change some keywords from red to yellow
+    - change variables from purple to white
+- fixed license
+
+
