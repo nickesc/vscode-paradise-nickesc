@@ -31,5 +31,9 @@ All notable changes to the "vscode-paradise-nickesc" extension will be documente
 
 - fixed strikethroughs
 
+## v1.1.0
+
+- changed light cyan color to match the dark theme better
+
 
 
