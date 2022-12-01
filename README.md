@@ -1,7 +1,7 @@
 <h1 align="center">Paradise</h1>
 <p align="center">
   <img src="icon.png" height=180px>
-  <h6 align="center">created by Manas140<br>edited by nickesc</h6>
+  <h6 align="center">created by Manas140<br>forked by nickesc</h6>
 </p>
 
 <p align="center">
