@@ -4,7 +4,7 @@
   "description": "A custom port of paradise-theme/paradise",
   "license": "MIT",
   "publisher": "nickesc",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "author": {
     "name": "Nick Escobar",
     "url": "https://nickesc.github.io",
@@ -32,11 +32,18 @@
   ],
   "contributes": {
     "themes": [
-      {
-        "label": "VSCode Paradise - nickesc",
-        "uiTheme": "vs-dark",
-        "path": "./themes/VSCode Paradise - nickesc-color-theme.json"
-      }
-    ]
+            {
+                "label": "VSCode Paradise (Dark) - nickesc",
+                "uiTheme": "vs-dark",
+                "path": "./themes/VSCode Paradise (Dark) - nickesc-color-theme.json"
+            },
+            {
+                "label": "VSCode Paradise (Light) - nickesc",
+                "uiTheme": "vs",
+                "path": "./themes/VSCode Paradise (Light) - nickesc-color-theme.json"
+            }
+        ]
   }
 }
+
+

@@ -14,7 +14,9 @@
 
 I did not create this theme, I'm only porting it to VSCode. This is also a fork of an existing VSCode theme by the original author, [paradise/vscode](https://github.com/paradise-theme/vscode) by manas140. Credit goes to them, they made an incredible color scheme.
 
- I was having issues with the theme and the color choices weren't quite matching up to what I'd hoped they would be, so I decided to build my own. Heavy lifting was done by the original theme author, check out the themes for more platforms available at [paradise-theme/paradise](https://github.com/paradise-theme/paradise), or install the original theme from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Manas.paradise-vscode).
+ I was having issues with the theme and the color choices weren't quite matching up to what I'd hoped they would be, so I decided to build my own. Heavy lifting was done by the original theme author, check out the themes for more platforms available at [paradise-theme/paradise](https://github.com/paradise-theme/paradise), or install the original VSCode theme from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Manas.paradise-vscode).
+
+A second, light theme is also included, with slightly different colors to look more saturated on a white background.
 
 ## Ports 
 

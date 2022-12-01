@@ -2,8 +2,6 @@
 
 All notable changes to the "vscode-paradise-nickesc" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
 ## v0.0.1
 
 - Initial fork
@@ -21,5 +19,13 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
     - change variables from purple to white
 - fixed license
 - updated change log
+
+## v1.0.0
+
+- added a light version of the theme - VSCode Paradise (Light)!
+- changed dark version to VSCode Paradise (Dark), so update your settings.json
+- polished and fixed a fewe things in the dark theme
+- redid colors.json to paradise.json
+
 
 
