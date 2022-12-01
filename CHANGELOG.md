@@ -27,5 +27,9 @@ All notable changes to the "vscode-paradise-nickesc" extension will be documente
 - polished and fixed a fewe things in the dark theme
 - redid colors.json to paradise.json
 
+## v1.0.1
+
+- fixed strikethroughs
+
 
 

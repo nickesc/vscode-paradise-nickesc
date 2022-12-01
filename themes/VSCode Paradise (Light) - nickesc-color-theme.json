@@ -1036,7 +1036,7 @@
       "scope": "invalid.deprecated",
       "settings": {
         "foreground": "#D9B46C",
-        "fontStyle": "italic strikethrough"
+        "fontStyle": "italic"
       }
     },
     {
@@ -1044,7 +1044,7 @@
       "scope": "invalid.deprecated.entity.other.attribute-name.html",
       "settings": {
         "foreground": "#D9B46C",
-        "fontStyle": "italic strikethrough"
+        "fontStyle": "italic"
       }
     },
     {
