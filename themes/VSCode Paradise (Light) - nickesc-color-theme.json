@@ -1993,14 +1993,14 @@
       "editor.findMatchBorder": "#A0CFFF60",
       "editor.findMatchHighlightBackground": "#A0CFFF15",
       "editor.findMatchHighlightBorder": "#A0CFFF30",
-      "editor.findRangeHighlightBackground": "#6689B520",
+      "editor.findRangeHighlightBackground": "#6689B510",
       "editor.findRangeHighlightBorder": "#6689B500",
-      "editor.rangeHighlightBackground": "#6689B540",
+      "editor.rangeHighlightBackground": "#6689B520",
       "editor.rangeHighlightBorder": "#6689B500",
-      "editor.hoverHighlightBackground": "#679e9560",
-      "editor.wordHighlightStrongBackground": "#679e9560",
+      "editor.hoverHighlightBackground": "#679e9520",
+      "editor.wordHighlightStrongBackground": "#679e9520",
       "editor.wordHighlightStrongBorder": "#679e9500",
-      "editor.wordHighlightBackground": "#A469B060",
+      "editor.wordHighlightBackground": "#A469B015",
       "editor.wordHighlightBorder": "#A469B000",
       "editor.lineHighlightBackground": "#15151505",
       "editor.lineHighlightBorder": "#15151500",
@@ -2174,3 +2174,4 @@
       "list.errorForeground": "#CB5458d0"
   }
 }
+
