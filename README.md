@@ -10,7 +10,7 @@
   <a href="https://github.com/nickesc/vscode-paradise-nickesc/network/members"><img src="https://img.shields.io/github/forks/nickesc/vscode-paradise-nickesc?colorA=151515&colorB=D9BC8C&style=for-the-badge&logo=github"></a>
 </p>
 
-![Dark preview](preview (dark).png)
+![Dark preview](preview-dark.png)
 
 ## Acknowledgements:
 
@@ -20,7 +20,7 @@ I was having issues with the theme and the color choices weren't quite matching 
 
 A second, light theme is also included, with slightly different colors to look more saturated on a white background.
 
-![Light preview](preview (light).png)
+![Light preview](preview-light.png)
 
 ## Ports 
 
