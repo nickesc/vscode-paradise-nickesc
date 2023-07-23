@@ -45,12 +45,11 @@
         ]
     },
     "homepage": "https://github.com/nickesc/vscode-paradise-nickesc#readme",
-    "main": ".vscode/launch.json",
     "scripts": {
         "test": ".vscode/launch.json",
         "vsce-help": "./node_modules/@vscode/vsce/vsce --help",
         "vsce-login": "./node_modules/@vscode/vsce/vsce login nickesc",
-        "vsce-package": "./node_modules/@vscode/vsce/vsce package",
+        "vsce-package": "./node_modules/@vscode/vsce/vsce package --out release/",
         "vsce-publish": "./node_modules/@vscode/vsce/vsce publish"
     },
     "devDependencies": {
