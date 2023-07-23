@@ -2043,6 +2043,7 @@
       "badge.background": "#424242",
       "badge.foreground": "#e8e3e3",
       "terminal.foreground": "#e8e3e3",
+      "terminal.background": "#111111",
       "terminal.selectionBackground": "#6d6d6d60",
       "terminalCursor.background": "#8da3b9",
       "terminalCursor.foreground": "#e8e3e3",
