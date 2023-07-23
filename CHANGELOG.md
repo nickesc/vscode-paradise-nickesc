@@ -41,8 +41,11 @@ All notable changes to the "vscode-paradise-nickesc" extension will be documente
 
 ## v1.1.2
 
-- adjusted folded lines background color inn the light theme
+- adjusted folded lines background color in the light theme
 - adjusted the notifications colors to be light
 - updated the readme
     - new light and dark theme previews
 
+## v1.1.3
+
+- changed light theme terminal background to dark
