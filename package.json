@@ -4,11 +4,11 @@
     "description": "A custom port of paradise-theme/paradise",
     "license": "MIT",
     "publisher": "nickesc",
-    "version": "1.1.3",
+    "version": "1.1.4",
     "author": {
         "name": "Nick Escobar",
         "url": "https://nickesc.github.io",
-        "email": "support@bludhaven.dev",
+        "email": "nick@nickesc.io",
         "github": "https://github.com/nickesc"
     },
     "icon": "icon.png",
@@ -25,7 +25,7 @@
     },
     "bugs": {
         "url": "https://github.com/nickesc/vscode-paradise-nickesc/issues",
-        "email": "support@bludhaven.dev"
+        "email": "nick@nickesc.io"
     },
     "categories": [
         "Themes"
@@ -47,10 +47,10 @@
     "homepage": "https://github.com/nickesc/vscode-paradise-nickesc#readme",
     "scripts": {
         "test": ".vscode/launch.json",
-        "vsce-help": "./node_modules/@vscode/vsce/vsce --help",
-        "vsce-login": "./node_modules/@vscode/vsce/vsce login nickesc",
-        "vsce-package": "./node_modules/@vscode/vsce/vsce package --out release/",
-        "vsce-publish": "./node_modules/@vscode/vsce/vsce publish"
+        "vsce-help": "vsce --help",
+        "vsce-login": "vsce login nickesc",
+        "vsce-package": "vsce package --out release/",
+        "vsce-publish": "vsce publish"
     },
     "devDependencies": {
         "@vscode/vsce": "^2.19.0"
