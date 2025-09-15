@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - main
-    tags:
-      - "*"
 
 jobs:
   deploy:
@@ -36,11 +34,15 @@ jobs:
           skipDuplicate: true
           dryRun: false
 
+      - name: Get package version
+        id: get_package_version
+        run: echo "package_version=$(node -p "require('./package.json').version")" >> "$GITHUB_OUTPUT"
+
       - name: Publish GitHub Release
         uses: softprops/action-gh-release@v2
         id: publishGitHubRelease
         with:
-          tag_name: ${{ github.ref_name }}
+          tag_name: ${{ steps.get_package_version.outputs.package_version }}
           body_path: ./CHANGELOG.md
           files: ${{ steps.publishToOpenVSX.outputs.vsixPath }}
           draft: false
