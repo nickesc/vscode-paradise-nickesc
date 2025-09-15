@@ -4,8 +4,8 @@ on:
   push:
     branches:
       - main
-    #tags:
-    #  - "*"
+    tags:
+      - "*"
 
 jobs:
   deploy:
@@ -24,7 +24,7 @@ jobs:
         with:
           pat: ${{ secrets.OPEN_VSX_TOKEN }}
           skipDuplicate: true
-          dryRun: true
+          dryRun: false
 
       - name: Publish to Visual Studio Marketplace
         uses: HaaLeo/publish-vscode-extension@v2
@@ -34,7 +34,7 @@ jobs:
           registryUrl: https://marketplace.visualstudio.com
           extensionFile: ${{ steps.publishToOpenVSX.outputs.vsixPath }}
           skipDuplicate: true
-          dryRun: true
+          dryRun: false
 
       - name: Publish GitHub Release
         uses: softprops/action-gh-release@v2
@@ -43,4 +43,4 @@ jobs:
           tag_name: ${{ github.ref_name }}
           body_path: ./CHANGELOG.md
           files: ${{ steps.publishToOpenVSX.outputs.vsixPath }}
-          draft: true
+          draft: false
