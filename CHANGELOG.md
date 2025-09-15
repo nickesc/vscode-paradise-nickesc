@@ -49,3 +49,7 @@ All notable changes to the "vscode-paradise-nickesc" extension will be documente
 ## v1.1.3
 
 - changed light theme terminal background to dark
+
+## v1.1.4
+
+- changed terminal background to transparent in both themes to fix certain issues
