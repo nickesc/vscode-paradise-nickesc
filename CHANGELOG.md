@@ -2,15 +2,47 @@
 
 All notable changes to the "vscode-paradise-nickesc" extension will be documented in this file.
 
-## v0.0.1
+## v1.1.5
 
-- Initial fork
-- redid everything
+- updated release pipeline
+- reverted terminal background changes
 
-## v0.0.3
+## v1.1.4
 
-- added a new preview
-- added a custom icon
+- changed terminal background to transparent in both themes to fix certain issues
+
+## v1.1.3
+
+- changed light theme terminal background to dark
+
+## v1.1.2
+
+- adjusted folded lines background color in the light theme
+- adjusted the notifications colors to be light
+- updated the readme
+    - new light and dark theme previews
+
+## v1.1.1
+
+- adjusted opacity of highlight overlays in the light theme
+
+
+## v1.1.0
+
+- changed light cyan color to match the dark theme better
+
+
+## v1.0.1
+
+- fixed strikethroughs
+
+
+## v1.0.0
+
+- added a light version of the theme - VSCode Paradise (Light)!
+- changed dark version to VSCode Paradise (Dark), so update your settings.json
+- polished and fixed a fewe things in the dark theme
+- redid colors.json to paradise.json
 
 ## v0.0.5
 
@@ -20,36 +52,12 @@ All notable changes to the "vscode-paradise-nickesc" extension will be documente
 - fixed license
 - updated change log
 
-## v1.0.0
+## v0.0.3
 
-- added a light version of the theme - VSCode Paradise (Light)!
-- changed dark version to VSCode Paradise (Dark), so update your settings.json
-- polished and fixed a fewe things in the dark theme
-- redid colors.json to paradise.json
+- added a new preview
+- added a custom icon
 
-## v1.0.1
+## v0.0.1
 
-- fixed strikethroughs
-
-## v1.1.0
-
-- changed light cyan color to match the dark theme better
-
-## v1.1.1
-
-- adjusted opacity of highlight overlays in the light theme
-
-## v1.1.2
-
-- adjusted folded lines background color in the light theme
-- adjusted the notifications colors to be light
-- updated the readme
-    - new light and dark theme previews
-
-## v1.1.3
-
-- changed light theme terminal background to dark
-
-## v1.1.4
-
-- changed terminal background to transparent in both themes to fix certain issues
+- Initial fork
+- redid everything
