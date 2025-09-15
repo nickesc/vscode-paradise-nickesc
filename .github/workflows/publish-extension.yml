@@ -24,7 +24,7 @@ jobs:
         with:
           pat: ${{ secrets.OPEN_VSX_TOKEN }}
           skipDuplicate: true
-          dry_run: true
+          dryRun: true
 
       - name: Publish to Visual Studio Marketplace
         uses: HaaLeo/publish-vscode-extension@v2
@@ -34,7 +34,7 @@ jobs:
           registryUrl: https://marketplace.visualstudio.com
           extensionFile: ${{ steps.publishToOpenVSX.outputs.vsixPath }}
           skipDuplicate: true
-          dry_run: true
+          dryRun: true
 
       - name: Publish GitHub Release
         uses: softprops/action-gh-release@v2
