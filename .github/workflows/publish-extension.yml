@@ -45,4 +45,5 @@ jobs:
           tag_name: ${{ steps.get_package_version.outputs.package_version }}
           body_path: ./CHANGELOG.md
           files: ${{ steps.publishToOpenVSX.outputs.vsixPath }}
+          overwrite_files: false
           draft: false
